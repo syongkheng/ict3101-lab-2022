@@ -13,6 +13,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
+    - name: Create MagicNumbers.txt
+      run: echo "1/n2/n3/n4/n5" >> MagicNumbers.txt
     - name: NUnit Tests
       working-directory: ICT3101_Calculator.UnitTests/
       run: dotnet test
