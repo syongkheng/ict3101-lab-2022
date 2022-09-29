@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{5E226F75-5014-4136-8074-2B4052376F48}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ICT3101_Calculator.UnitTests/CalculatorTests.cs">
+    <Files>
+      <File FileName="ICT3101_Calculator.UnitTests/CalculatorTests.cs" Line="90" Column="19" />
+      <File FileName="Lab01/Calculator.cs" Line="92" Column="26" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Lab01" expanded="True">
+            <Node name="ICT3101_Calculator.UnitTests" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="CalculatorTests.cs" selected="True" />
+            </Node>
+            <Node name="Lab01" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Lab01" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Lab01 PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

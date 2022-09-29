@@ -1,0 +1,37 @@
+Client Requirement:
+ICT3101 Lab_2.3 04/09/2022
+Client requirements:
+`A group of system quality engineers wish to customize the command line calculator program
+to perform quality metric calculations. The engineers need to calculate the defect density of a
+system. Furthermore, they require a custom calculation for the new total number of Shipped
+Source Instructions (SSI) in the second release of a system. The engineers also wish to be able
+to use the Musa Logarithmic model to calculate failure intensity and the number of expected
+failures, performing each of these using a single calculator command.`
+
+# Epic Description
+Allow System Quality Engineers to customize the CLI Calculator program to perform quality metric calculations such as calculating
+the defect density of a system, the total number of Shipped Source Instructions, and the failure intensity/expected failure using the
+Musa Logarithmic model.
+
+# User Story Examples
+As a System Quality Engineer,
+I want to be able to customise the CLI Calculator program,
+so that I can calculate various information about a system such as its defect density, SSI, and failure intensity/expected failure
+with Musa Logarithmic model.
+
+As a System Quality Engineer,
+I want to be able to determine the total number of Shipped Source Instructions,
+So that I can determine other information such as the defect density of the system.
+
+As a System Quality Engineer,
+I want to be able to calculate the defect density of a system,
+So that I can assess the change of defect density over the each system release iteration.
+
+As a System Quality Engineer,
+I want to be able to incorporate the Musa Logarithmic Model,
+So That I can calculate the failure intensity.
+
+As a System Quality Engineer,
+I want to be able to incorporate the Musa Logarithmic Model,
+So That I can calculate the expected failure.
+
