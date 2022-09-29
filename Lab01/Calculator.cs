@@ -188,7 +188,7 @@ public class Calculator
 //Dependency------------------------------
         // FileReader getTheMagic = new FileReader();
 //----------------------------------------
-        string[] magicStrings = fileReader.Read("/Users/yongkhengs/Desktop/dev/School/ICT3101-lab/Lab01/Lab01/MagicNumbers.txt");
+        string[] magicStrings = fileReader.Read("MagicNumbers.txt");
         if ((choice >= 0) && (choice < magicStrings.Length))
         {
             result = Convert.ToDouble(magicStrings[choice]);

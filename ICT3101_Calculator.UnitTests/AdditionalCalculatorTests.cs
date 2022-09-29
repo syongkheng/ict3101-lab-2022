@@ -13,7 +13,7 @@ public class AdditionalCalculatorTests
     {
         _mockFileReader = new Mock<IFileReader>();
         _mockFileReader.Setup(fr =>
-            fr.Read("/Users/yongkhengs/Desktop/dev/School/ICT3101-lab/Lab01/Lab01/MagicNumbers.txt")).Returns(new string[5]{"1","2","3","4","5"});
+            fr.Read("MagicNumbers.txt")).Returns(new string[5]{"1","2","3","4","5"});
         _calculator = new Calculator();
     }
     
