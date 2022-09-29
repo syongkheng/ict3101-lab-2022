@@ -15,14 +15,7 @@ jobs:
     - uses: actions/checkout@v1
     - name: Create MagicNumbers.txt
       working-directory: ICT3101_Calculator.UnitTests/
-      run: echo "CD .."
-      run: cd ..
-      run: echo "CD .."
-      run: cd ..
-      run: echo "Lab01"
-      run: cd lab01
-      run: echo "1\n2\n3\n4\n5" >> MagicNumbers.txt
-      run: cat MagicNumbers.txt
+      run: cd .. && cd .. && cd lab01 && echo "1\n2\n3\n4\n5" >> MagicNumbers.txt
     - name: NUnit Tests
       working-directory: ICT3101_Calculator.UnitTests/
       run: dotnet test
