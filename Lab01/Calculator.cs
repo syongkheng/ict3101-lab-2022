@@ -189,6 +189,7 @@ public class Calculator
         // FileReader getTheMagic = new FileReader();
 //----------------------------------------
         string root = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.Parent.FullName;
+        Console.WriteLine(root);
         string[] magicStrings = fileReader.Read(root + "/MagicNumbers.txt");
         if ((choice >= 0) && (choice < magicStrings.Length))
         {
