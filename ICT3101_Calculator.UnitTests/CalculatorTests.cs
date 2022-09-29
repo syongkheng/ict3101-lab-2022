@@ -1,4 +1,6 @@
-﻿namespace ICT3101_Caculator.UnitTests
+﻿using Lab01;
+
+namespace ICT3101_Caculator.UnitTests
 {
     public class CalculatorTests
     {
@@ -172,6 +174,18 @@
         public void Circle_WhenCalculatingWeirdAreaCircle_ResultThrowArgExcpt(double r)
         {
             Assert.That(() => _calculator.Circle(r), Throws.ArgumentException);
+        }
+
+        [Test]
+        [TestCase(0)]
+        [TestCase(1)]
+        [TestCase(2)]
+        [TestCase(3)]
+        [TestCase(4)]
+        public void FileReader_WhenUsingThisMagicalFunction_ResultEqualSix(double p0)
+        {
+            FileReader fileReader = new FileReader();
+            Assert.That(() => _calculator.GenMagicNum(p0, fileReader),Is.EqualTo(p0 * 2 + 2));
         }
 
     }

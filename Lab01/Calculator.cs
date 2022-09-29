@@ -1,4 +1,7 @@
-﻿public class Calculator
+﻿using System.Drawing.Printing;
+using Lab01;
+
+public class Calculator
 {
     public Calculator()
     {
@@ -177,6 +180,23 @@
         }
         return res;
     }
+    
+    public double GenMagicNum(double input, IFileReader fileReader)
+    {
+        double result = 0;
+        int choice = Convert.ToInt16(input);
+//Dependency------------------------------
+        // FileReader getTheMagic = new FileReader();
+//----------------------------------------
+        string[] magicStrings = fileReader.Read("/Users/yongkhengs/Desktop/dev/School/ICT3101-lab/Lab01/Lab01/MagicNumbers.txt");
+        if ((choice >= 0) && (choice < magicStrings.Length))
+        {
+            result = Convert.ToDouble(magicStrings[choice]);
+        }
+        result = (result > 0) ? (2 * result) : (-2 * result);
+        Console.WriteLine(result);
+        return result;
+    }
 
     public double Fact(double num)
     {
@@ -273,3 +293,4 @@
         return Math.PI * r * r;
     }
 }
+
