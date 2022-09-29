@@ -51,14 +51,11 @@
         }
 
         [Test]
-        [TestCase(3,0)]
-        [TestCase(-1, 0)]
-        [TestCase(0, 0)]
-        public void Factorial_WhenGivenANumberToFactorial_ResultEqualToTheMultiplicationFromItselfToOne(double num1, double num2)
+        public void Factorial_WhenGivenANumberToFactorial_ResultEqualToTheMultiplicationFromItselfToOne()
         {
             //handle decimal input for factorial
             Assert.That(() => _calculator.Factorial(3,0), Is.EqualTo(6));
-            Assert.That(() => _calculator.Factorial(-1, 0), Throws.ArgumentException);
+            Assert.That(() => _calculator.Factorial(-1, 0), Is.EqualTo(Double.NegativeInfinity));
             Assert.That(() => _calculator.Factorial(0, 0), Is.EqualTo(1));
         }
 
