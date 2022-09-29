@@ -6,5 +6,16 @@
 &lt;/SessionState&gt;</s:String>
 	
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f7737762_002D7217_002D41e6_002D8c83_002D792c0481bfdf/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from &amp;lt;ICT3101_Calculator.UnitTests&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;Project Location="/Users/yongkhengs/Desktop/dev/School/ICT3101-lab/Lab01/ICT3101_Calculator.UnitTests" Presentation="&amp;lt;ICT3101_Calculator.UnitTests&amp;gt;" /&gt;
+  &lt;And&gt;
+    &lt;Project Location="/Users/yongkhengs/Desktop/dev/School/ICT3101-lab/Lab01/ICT3101_Calculator.UnitTests" Presentation="&amp;lt;ICT3101_Calculator.UnitTests&amp;gt;" /&gt;
+    &lt;Not&gt;
+      &lt;And&gt;
+        &lt;TestAncestor&gt;
+          &lt;TestId&gt;NUnit3x::3E3289C1-51BF-46E2-B93D-8C3071F88A66::net6.0::ICT3101_Caculator.UnitTests.CalculatorTests.FileReader_WhenUsingThisMagicalFunction_ResultEqualSix(1)&lt;/TestId&gt;
+        &lt;/TestAncestor&gt;
+        &lt;Project Location="/Users/yongkhengs/Desktop/dev/School/ICT3101-lab/Lab01/ICT3101_Calculator.UnitTests" Presentation="&amp;lt;ICT3101_Calculator.UnitTests&amp;gt;" /&gt;
+        &lt;Namespace&gt;ICT3101_Caculator.UnitTests&lt;/Namespace&gt;
+      &lt;/And&gt;
+    &lt;/Not&gt;
+  &lt;/And&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

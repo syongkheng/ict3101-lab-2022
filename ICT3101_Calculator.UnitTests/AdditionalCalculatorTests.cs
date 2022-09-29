@@ -12,8 +12,9 @@ public class AdditionalCalculatorTests
     public void Setup()
     {
         _mockFileReader = new Mock<IFileReader>();
+        string root = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.Parent.FullName;
         _mockFileReader.Setup(fr =>
-            fr.Read("../../Lab01/MagicNumbers.txt")).Returns(new string[5]{"1","2","3","4","5"});
+            fr.Read(root +"/MagicNumbers.txt")).Returns(new string[5]{"1","2","3","4","5"});
         _calculator = new Calculator();
     }
     

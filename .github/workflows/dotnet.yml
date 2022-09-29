@@ -13,12 +13,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - name: Create MagicNumbers.txt step 1
-      working-directory: ICT3101_Calculator.UnitTests/
-      run: mkdir D:\a\ict3101-lab-2022\ict3101-lab-2022\ICT3101_Calculator.UnitTests\bin\Lab01\
-    - name: Create MagicNumbers.txt step 2
-      working-directory: ICT3101_Calculator.UnitTests/
-      run: cd D:\a\ict3101-lab-2022\ict3101-lab-2022\ICT3101_Calculator.UnitTests\bin\Lab01\ && echo "1\n2\n3\n4\n5" >> MagicNumbers.txt
     - name: NUnit Tests
       working-directory: ICT3101_Calculator.UnitTests/
       run: dotnet test
