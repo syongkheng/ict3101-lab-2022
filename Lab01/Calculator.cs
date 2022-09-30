@@ -10,7 +10,7 @@ public class Calculator
     public double DoOperation(double num1, double num2, string op)
     {
         double result = double.NaN; // Default value
-        // Use a switch statement to do the maths.
+        // Use a switch statement to do the maths. A push
         switch (op)
         {
             case "a":
